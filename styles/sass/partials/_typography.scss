@@ -1,0 +1,42 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+}
+
+body {
+    /* font-family: $baseFont;
+    color: $white; */
+    background-color: #000;
+}
+
+.wrapper {
+    max-width: 1080px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: $alphaFont;
+    font-size: 6.8rem;
+    font-weight: 500;
+    color: $orange;
+    text-align: center;
+    letter-spacing: 2.4px;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+
+
+h2{
+    color: $orange;
+    font-family: $alphaFont;
+    font-size: 2rem;
+}
+
+p,
+footer {
+    font-family: $betaFont;
+    color: $white;
+}

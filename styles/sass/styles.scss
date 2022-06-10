@@ -1,0 +1,16 @@
+/* Colour Import */
+$orange: #F06000;
+$yellow: #FFA818;
+$grey: #808080;
+$white: #ECE4DE;
+
+
+/* Font Import */
+$alphaFont: "Kdam Thmor Pro", sans-serif;
+$betaFont: "Lato", sans-serif;
+
+/* Partials Import */
+@import "./partials/setup";
+@import "./partials/typography";
+@import "./partials/nav";
+@import "./partials/icons";
