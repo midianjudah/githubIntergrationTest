@@ -258,10 +258,16 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   color: #F06000;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
 }
 
 p,
@@ -310,10 +316,29 @@ a {
   text-decoration: none;
 }
 
+.projectButtons {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #808080;
+}
+.projectButtons a:hover,
+.projectButtons a:focus {
+  color: #F06000;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
+
 .socials,
 .fa-brands {
   font-size: 4rem;
   color: #F06000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 6% auto;
 }
 
 .fa-brands,
@@ -322,4 +347,40 @@ a {
 .fa-duotone {
   font-size: 5rem;
   color: #FFA818;
+}
+
+.skillContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 8% auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.skillContainer p {
+  text-transform: uppercase;
+  color: #ECE4DE;
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-align: center;
+}
+.skillContainer li {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about,
+.projectSection {
+  width: 50%;
+}
+.about img,
+.projectSection img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
 }

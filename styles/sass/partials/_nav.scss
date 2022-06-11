@@ -32,3 +32,17 @@ nav ul li a:focus {
 a {
     text-decoration: none;
 }
+
+.projectButtons {
+    text-decoration: none;
+    font-family: $betaFont;
+    font-size: 1.5rem;
+    color: $grey;
+    
+
+    a:hover,
+    a:focus {
+    color: $orange;
+	transition: 0.4s ease-in;
+    }
+}

@@ -1,0 +1,10 @@
+.about,
+.projectSection {
+  width: 50%;
+}
+.about img,
+.projectSection img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
