@@ -1,9 +1,18 @@
 .about,
 .projectSection {
-    width: 50%;
+    width: 100%;
 
     img {
         object-fit: contain;
         width: 100%;
+        border-radius: 10px;
+        padding: 10%;
     }
+}
+
+.about {
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    border-radius: 10%;
 }

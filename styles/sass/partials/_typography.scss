@@ -16,7 +16,6 @@ body {
     margin: 0 auto;
 }
 
-
 h1 {
     font-family: $alphaFont;
     font-size: 6.8rem;
@@ -28,7 +27,6 @@ h1 {
     margin-bottom: 0;
 }
 
-
 h2,
 h3,
 h4 {
@@ -37,11 +35,25 @@ h4 {
     font-size: 2rem;
 }
 
+.about {
+   text-align: left;
+   p {
+    padding: 5%;
+    margin-top: 1%;
+    letter-spacing: 2px;
+    line-height: 200%;
+   } 
+
+   h3 {
+    text-align: center;
+    margin-bottom: 1%;
+   }
+
+}
+
 h3 {
     text-align: center;
 }
-
-
 
 p,
 footer {

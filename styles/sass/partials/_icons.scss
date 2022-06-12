@@ -1,10 +1,13 @@
-.socials,
-.fa-brands {
+.socials {
     font-size: 4rem;
-    color: $orange;
+    /* color: $orange; */
     display: flex;
     flex-wrap: wrap;
     margin: 6% auto;
+    margin: 1%;
+    width: calc(100% / 3 - 24px);
+    justify-content: space-between;
+
 }
 
 .fa-brands,
