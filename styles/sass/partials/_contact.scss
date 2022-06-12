@@ -1,0 +1,90 @@
+/* THE FORM */
+.formBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    box-sizing: border-box;
+    align-self: end;
+}
+
+.nameBox,
+.emailBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    outline: none;
+    border-bottom: 1px solid $orange;
+    border-radius: 15%;
+    letter-spacing: 3px;
+    margin: 0 10px 20px 10px;
+    width: 50%;
+    justify-content: space-between;
+    
+
+    
+
+    input {
+        padding: 0 5px;
+        height: 40px;
+        border: none;
+        background: none;
+        color: $white;
+        font-weight: 100;
+    }
+}
+
+.nameEmail {
+    display: flex;
+    
+    label {
+        font-size: 1.4rem;
+    }
+}
+
+.messageBox {
+    border: 1px solid $orange;
+    letter-spacing: 3px;
+    color: $white;
+
+    
+        textarea{
+            
+            resize: none;
+            border: none;
+            background: none;
+            color: $white;
+            font-weight: 100;
+            width: 100%;
+            padding: 5%;
+
+            ::placeholder {
+                color: $white;
+            }
+        }
+
+}
+
+.postComment {
+    width: 100%;
+    margin-top: 4%;
+}
+
+button {
+    font-family: $alphaFont;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1.9px;
+    background-color: $orange;
+    color: $white;
+    margin: 0;
+    padding: 6px 28px;
+    border: none;
+
+    &:hover {
+        background-color: $white;
+        color: $red;
+        transition: 0.7s;
+    }
+}

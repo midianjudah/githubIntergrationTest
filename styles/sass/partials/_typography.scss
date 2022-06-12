@@ -35,6 +35,7 @@ h4 {
     font-size: 2rem;
 }
 
+/* ABOUT SECTION */
 .about {
    text-align: left;
    p {
@@ -48,15 +49,41 @@ h4 {
     text-align: center;
     margin-bottom: 1%;
    }
+}
 
+/* PROJECTS */
+.projectSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project01Description {
+    text-align: left;
+
+    p {
+        padding-right: 5%;
+        margin-top: 1%;
+    }
+    
 }
 
 h3 {
     text-align: center;
 }
 
+/* FOOTER */
 p,
 footer {
     font-family: $betaFont;
     color: $white;
+}
+
+footer {
+    background-color: $grey;
+    text-align: center;
+    margin: 0; 
+    padding: 0.1%;
+    color: $white;
+    font-size: 1.5rem;
 }

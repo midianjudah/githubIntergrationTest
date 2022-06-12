@@ -16,3 +16,15 @@
     padding-bottom: 10%;
     border-radius: 10%;
 }
+
+.project01,
+.project02,
+.project03,
+.project04 {
+    width: 41%;
+
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
+}
