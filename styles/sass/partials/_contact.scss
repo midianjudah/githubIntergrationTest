@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     outline: none;
-    border-bottom: 1px solid $orange;
+    border-bottom: 1px solid $yellow;
     border-radius: 15%;
     letter-spacing: 3px;
     margin: 0 10px 20px 10px;
@@ -43,7 +43,7 @@
 }
 
 .messageBox {
-    border: 1px solid $orange;
+    border: 1px solid $yellow;
     letter-spacing: 3px;
     color: $white;
 
@@ -70,12 +70,12 @@
     margin-top: 4%;
 }
 
-button {
+.send {
     font-family: $alphaFont;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 30px;
-    letter-spacing: 1.9px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
     background-color: $orange;
     color: $white;
     margin: 0;

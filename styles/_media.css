@@ -1,0 +1,68 @@
+/* 1300px */
+@media (max-width: 1300px) {
+  .formBox {
+    width: 100%;
+  }
+}
+/* 1000px */
+@media (max-width: 1000px) {
+  .messageBox,
+.send {
+    width: 85%;
+  }
+
+  .nameBox,
+.emailBox {
+    width: 38%;
+  }
+}
+/*  900px */
+@media (max-width: 900px) {
+  .messageBox {
+    top: 20%;
+    left: 50%;
+    width: 100%;
+  }
+}
+/* 500px */
+/* NAVIGATION */
+@media (max-width: 500px) {
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .nameEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+
+  .submit,
+.messageBox,
+.emailBox,
+.nameBox {
+    width: 95%;
+  }
+
+  .formBox {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+
+  .nameEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .nameBox,
+.emailBox {
+    width: 100%;
+  }
+}
