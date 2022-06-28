@@ -65,6 +65,13 @@ h4 {
         padding-right: 5%;
         margin-top: 1%;
     }
+
+    a:hover,
+    a:focus {
+    color: $orange;
+	transition: 0.4s ease-in;
+    }
+    
     
 }
 

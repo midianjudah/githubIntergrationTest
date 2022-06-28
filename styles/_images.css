@@ -34,3 +34,10 @@
      object-fit: contain;
   width: 100%;
 }
+
+/* CAN'T GET THIS TO WORK */
+header {
+  background-image: url(./assets/spaceLightsHeader.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
