@@ -42,8 +42,15 @@
 .projectIcons {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin: 6% auto;
-    margin: 1%;
-    width: calc(100% / 3 - 24px);
-    justify-content: space-between;
+    /* justify-content: space-between; */
+
+    .fa-brands {
+        flex-basis: 20%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    /* width: calc(100% / 3 - 24px); */
 }

@@ -249,7 +249,7 @@ body {
 
 h1 {
   font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 6.8rem;
+  font-size: 6.2rem;
   font-weight: 500;
   color: #F06000;
   text-align: center;
@@ -281,6 +281,18 @@ h4 {
   margin-bottom: 1%;
 }
 
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 /* PROJECTS */
 .projectSection {
   display: -webkit-box;
@@ -300,9 +312,19 @@ h4 {
   padding-right: 5%;
   margin-top: 1%;
 }
+.project01Description a:hover,
+.project01Description a:focus {
+  color: #F06000;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
 
 h3 {
   text-align: center;
+}
+
+.projectDescription {
+  padding-left: 10%;
 }
 
 /* FOOTER */
@@ -424,6 +446,27 @@ a {
   padding: 10px;
 }
 
+.projectIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 6% auto;
+  /* justify-content: space-between; */
+  /* width: calc(100% / 3 - 24px); */
+}
+.projectIcons .fa-brands {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin: 1%;
+  display: inline-block;
+}
+
 .about,
 .projectSection {
   width: 100%;
@@ -461,6 +504,13 @@ a {
   width: 100%;
 }
 
+/* CAN'T GET THIS TO WORK */
+header {
+  background-image: url(../assets/spaceLightsHeader.JPEG);
+  background-size: cover;
+  min-height: 100vh;
+}
+
 /* THE FORM */
 .formBox {
   display: -webkit-box;
@@ -489,7 +539,8 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   outline: none;
-  border-bottom: 1px solid #F06000;
+  border-bottom: 1px solid red;
+  border-radius: 15%;
   letter-spacing: 3px;
   margin: 0 10px 20px 10px;
   width: 50%;
@@ -517,7 +568,7 @@ a {
 }
 
 .messageBox {
-  border: 1px solid #F06000;
+  border: 1px solid #FFA818;
   letter-spacing: 3px;
   color: #ECE4DE;
 }
@@ -549,4 +600,93 @@ a {
 .postComment {
   width: 100%;
   margin-top: 4%;
+}
+
+.send {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  background-color: #F06000;
+  color: #ECE4DE;
+  margin: 0;
+  padding: 6px 28px;
+  border: none;
+}
+.send:hover {
+  background-color: #ECE4DE;
+  color: red;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.projects {
+  padding: 10%;
+}
+.projects p {
+  margin: 10%;
+}
+
+/* 1300px */
+@media (max-width: 1300px) {
+  .formBox {
+    width: 100%;
+  }
+}
+/* 1000px */
+@media (max-width: 1000px) {
+  .messageBox,
+.send {
+    width: 85%;
+  }
+  .nameBox,
+.emailBox {
+    width: 38%;
+  }
+}
+/*  900px */
+@media (max-width: 900px) {
+  .messageBox {
+    top: 20%;
+    left: 50%;
+    width: 100%;
+  }
+}
+/* 500px */
+/* NAVIGATION */
+@media (max-width: 500px) {
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nameEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .submit,
+.messageBox,
+.emailBox,
+.nameBox {
+    width: 95%;
+  }
+  .formBox {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .nameEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nameBox,
+.emailBox {
+    width: 100%;
+  }
 }
