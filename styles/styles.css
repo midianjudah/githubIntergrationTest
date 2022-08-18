@@ -507,8 +507,10 @@ a {
 /* CAN'T GET THIS TO WORK */
 header {
   background-image: url(../assets/spaceLightsHeader.JPEG);
+  position: relative;
   background-size: cover;
   min-height: 100vh;
+  background-image: -webkit-linear-gradient(top rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 /* THE FORM */
