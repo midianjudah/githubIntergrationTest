@@ -401,14 +401,12 @@ a {
 }
 
 .socials {
-  font-size: 4rem;
+  font-size: 2rem;
   /* color: $orange; */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 6% auto;
+  display: inline-block;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin: 6% auto; */
   margin: 1%;
   width: calc(33.3333333333% - 24px);
   -webkit-box-pack: justify;
