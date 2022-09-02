@@ -421,6 +421,11 @@ a {
   color: #FFA818;
 }
 
+.skills {
+  background-color: aliceblue;
+  padding-top: 1%;
+}
+
 .skillContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -476,8 +481,12 @@ a {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
-  border-radius: 10px;
-  padding: 10%;
+  /* border-radius: 10%; */
+  padding: 5%;
+}
+.about .midPic,
+.projectSection .midPic {
+  background-color: aliceblue;
 }
 
 .about {
@@ -504,7 +513,6 @@ a {
   width: 100%;
 }
 
-/* CAN'T GET THIS TO WORK */
 header {
   background-image: url(../assets/spaceLightsHeader.JPEG);
   position: relative;

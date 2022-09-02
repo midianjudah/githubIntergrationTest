@@ -6,10 +6,16 @@
     img {
         object-fit: contain;
         width: 100%;
-        border-radius: 10px;
-        padding: 10%;
+        /* border-radius: 10%; */
+        padding: 5%;
+    }
+
+    .midPic {
+        background-color: aliceblue;
     }
 }
+
+
 
 .about {
     align-items: center;
@@ -31,7 +37,6 @@
 }
 
 
-/* CAN'T GET THIS TO WORK */
 header {
     background-image: url(../assets/spaceLightsHeader.JPEG);
     position: relative;
