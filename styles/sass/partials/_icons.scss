@@ -1,13 +1,13 @@
 .socials {
     font-size: 2rem;
+    margin: 10% auto;
+    justify-content: space-around;
     /* color: $orange; */
     /* display: inline-block; */
     /* display: flex;
     flex-wrap: wrap; */
-    margin: 10% auto;
     /* margin: 1%; */
     /* width: calc(100% / 3 - 24px); */
-    justify-content: space-around;
 
 }
 
@@ -29,10 +29,11 @@
     flex-wrap: wrap;
     margin: 8% auto;
     justify-content: center;
+    list-style: none;
 
     p {
         text-transform: uppercase;
-        color: $white;
+        color: #000;
         font-size: 0.9rem;
         font-weight: 100;
         text-align: center;
@@ -50,6 +51,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 6% auto;
+    list-style: none;
     /* justify-content: space-between; */
 
     .fa-brands {

@@ -402,15 +402,15 @@ a {
 
 .socials {
   font-size: 2rem;
+  margin: 10% auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   /* color: $orange; */
   /* display: inline-block; */
   /* display: flex;
   flex-wrap: wrap; */
-  margin: 10% auto;
   /* margin: 1%; */
   /* width: calc(100% / 3 - 24px); */
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .fa-brands,
@@ -436,10 +436,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  list-style: none;
 }
 .skillContainer p {
   text-transform: uppercase;
-  color: #ECE4DE;
+  color: #000;
   font-size: 0.9rem;
   font-weight: 100;
   text-align: center;
@@ -462,6 +463,7 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 6% auto;
+  list-style: none;
   /* justify-content: space-between; */
   /* width: calc(100% / 3 - 24px); */
 }
