@@ -5,3 +5,42 @@
         margin: 10%;
     }
 }
+
+.border01,
+.border02,
+.border03,
+.border04 {
+    border: 3px solid $orange;
+    margin-bottom: 5%;
+    padding: 0.5%;
+}
+
+.project01 {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -40px;
+    }
+
+    .project01description {
+        position: absolute;
+        top: 40px;
+    }
+}
+
+/* 
+.project01,
+.project01description,
+.project01buttons,
+.project02,
+.project02description,
+.project02buttons {
+    width: 40%;
+
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
+} 
+*/
