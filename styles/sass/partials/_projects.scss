@@ -23,7 +23,28 @@
         top: -40px;
     }
 
-    .project01description {
+}
+
+.project01Description {
+    /* position: relative; */
+    top: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-between;
+   /*  align-items: flex-start; */
+    width: 54%;
+}
+
+.project02 {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -40px;
+    }
+
+    .project02Description {
         position: absolute;
         top: 40px;
     }
