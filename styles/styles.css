@@ -236,8 +236,7 @@ html {
 }
 
 body {
-  /* font-family: $baseFont;
-  color: $white; */
+  font-family: "Lato", sans-serif;
   background-color: #000;
 }
 
@@ -633,6 +632,26 @@ header {
   transition: 0.7s;
 }
 
+.button {
+  background-color: #F06000;
+  border-radius: 10%;
+  padding: 2%;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+.button:hover {
+  background-color: #09133e;
+}
+.button i {
+  font-size: 1em;
+  color: #ECE4DE;
+  margin-right: 0.5em;
+}
+
+.newLine {
+  display: block;
+}
+
 .projects {
   padding: 10%;
 }
@@ -649,17 +668,7 @@ header {
   padding: 0.5%;
 }
 
-.project01 {
-  position: relative;
-}
-.project01 img {
-  position: absolute;
-  top: -40px;
-}
-
 .project01Description {
-  /* position: relative; */
-  top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -669,11 +678,25 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  /*  align-items: flex-start; */
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 54%;
+}
+.project01Description p {
+  margin-top: 0;
+}
+.project01Description .border01 p {
+  text-align: center;
+}
+
+.projectIconsWrapper {
+  display: inline-block;
+}
+
+.descriptionIconsButts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .project02 {

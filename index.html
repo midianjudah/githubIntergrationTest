@@ -18,7 +18,7 @@
 </head>
 
 
-<body>
+<body onload="ready()">
     <header class="Header">
         <div class="wrapper">
             <nav>
@@ -126,34 +126,47 @@
                 <!-- Project 1 -->
             <div class="border01">
                 <h4>Bar-One</h4>
-                <div class="project01">
+                <div class="project" id="project01">
                     <img src="./assets/barOne.jpg" alt="A dark and moody-looking bar.">
                 </div>
             
+            <div class="descriptionIconsButts">
                 <div class="project01Description">
                     <p>A project that put my skills to the test early on in Juno's Bootcamp. This project involved
                         making a multi-page responsive website for a new establishment opening soon in the heart of
                         downtown Toronto. Website was made from a PSD template and is responsive across all devices.</p>
+                </div>
 
-                    <ul class="projectIcons">
-                        <li class="skillIcon"><span><i class="fa-brands fa-html5"></i></span></li>
-                        <li class="skillIcon"><span><i class="fa-brands fa-css3-alt"></i></span></li>
-                        <li class="skillIcon"><span><i class="fa-brands fa-sass"></i></span></li>
-                        <li class="skillIcon"><span><i class="fa-brands fa-js-square"></i></span></li>
-                    </ul>
+
+
+                <div class="projectIconsWrapper">
 
                     <div class="project01Buttons">
-                        <a href="https://beamish-hummingbird-009b40.netlify.app/">Live Site</a>
-                        <span>|</span>
-                        <a href="https://github.com/midianjudah/midianJudahProjectOne">GitHub</a>
+                        <a class="button" target="_blank" href="https://beamish-hummingbird-009b40.netlify.app/">
+                            <i class="fa-solid fa-tv"></i> <span>Live Site</span></a>
+                        
+                        <a class="button" title="github" target="_blank" href="https://github.com/midianjudah/midianJudahProjectOne">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Github</span></a>
                     </div>
+
+                    <div>
+                        <ul class="projectIcons">
+                            <li class="skillIcon"><span><i class="fa-brands fa-html5"></i></span></li>
+                            <li class="skillIcon"><span><i class="fa-brands fa-css3-alt"></i></span></li>
+                            <li class="skillIcon"><span><i class="fa-brands fa-sass"></i></span></li>
+                            <li class="skillIcon"><span><i class="fa-brands fa-js-square"></i></span></li>
+                        </ul>
+                    </div>
+
                 </div>
+            </div>
             </div>
                 
                 <!-- Project 2 -->
             <div class="border02">
                 <h4>Game Night App</h4>
-                <div class="project02">
+                <div class="project" id="project02"> 
                     <img src="./assets/gameNightApp.jpg" alt="Game app background.">
                 </div>
                 <div class="project02Description">
@@ -181,7 +194,7 @@
                 <!-- Project 3 -->
             <div class="border03">
                 <h4>Music Mirror</h4>
-                <div class="project01">
+                <div class="project" id="project03">
                     <img src="./assets/musicMirror.png" alt="Collage with many different musical artists and bands">
                 </div>
                 <div class="project01Description">
@@ -209,7 +222,7 @@
                 <!-- Project 4 -->
             <div class="border04">
                 <h4>Word Party</h4>
-                <div class="project02">
+                <div class="project" id="project04">
                     <img src="./assets/wordParty.jpg" alt="A list of words appended to a page.">
                 </div>
                 <div class="project02Description">
@@ -238,7 +251,7 @@
         <section class="contact" id="contact">
             <h3>Contact Me</h3>
             <div class="formBox">
-                <form action="#">
+                <form id="contactForm" action="#">
                     <div class="nameEmail">
                         <div class="nameBox">
                             <label for="name">Name</label>
@@ -253,7 +266,7 @@
 
                     <div class="messageBox">
 
-                        <textarea name="Message" id="Message" cols="25" rows="5" placeholder="Message" required
+                        <textarea name="message" id="message" cols="25" rows="5" placeholder="Message" required
                             maxlength="255"></textarea>
                     </div>
 
@@ -265,6 +278,8 @@
     </main>
 
     <footer>Designed by Midian Judah @ Juno College 2022</footer>
+
+    <script src="scripts.js"></script>
 
 </body>
 
