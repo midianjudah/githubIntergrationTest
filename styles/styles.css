@@ -632,7 +632,11 @@ header {
   transition: 0.7s;
 }
 
-/* Example Starts */
+.newLine {
+  display: block;
+}
+
+/* Example Starts - Project Section */
 .button {
   background-color: #F06000;
   border-radius: 11%;
@@ -649,17 +653,20 @@ header {
   margin-right: 0.5em;
 }
 
+/* Example Ends - Project Section */
+.projectIcons li,
+.projectIcons .skillIcon {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* Skills Section */
 .skillIcons {
   font-size: 0.5em;
 }
 
-/* Contact Section */
-.newLine {
-  display: block;
-}
-
-/* Contact Section */
-/* Example Ends */
+/* Skills Section */
 .projects {
   padding: 10%;
 }

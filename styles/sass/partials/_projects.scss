@@ -1,4 +1,4 @@
-/* Example Starts */
+/* Example Starts - Project Section */
 .button {
     background-color: $orange;
     border-radius: 11%;
@@ -16,19 +16,22 @@
         margin-right: 0.5em;
     }
 }
+/* Example Ends - Project Section */
+
+.projectIcons {
+    li,
+    .skillIcon {
+        justify-content: space-between;
+    }
+}
 
 
+/* Skills Section */
 .skillIcons {
         font-size: 0.5em;
 }
+/* Skills Section */
 
-/* Contact Section */
-.newLine {
-    display: block;
-}
-/* Contact Section */
-
-/* Example Ends */
 
 .projects {
     padding: 10%;
