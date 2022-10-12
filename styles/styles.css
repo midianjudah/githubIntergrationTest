@@ -416,7 +416,7 @@ a {
 .fa-solid,
 .fa-regular,
 .fa-duotone {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #FFA818;
 }
 
@@ -632,6 +632,7 @@ header {
   transition: 0.7s;
 }
 
+/* Example Starts */
 .button {
   background-color: #F06000;
   border-radius: 11%;
@@ -648,10 +649,17 @@ header {
   margin-right: 0.5em;
 }
 
+.skillIcons {
+  font-size: 0.5em;
+}
+
+/* Contact Section */
 .newLine {
   display: block;
 }
 
+/* Contact Section */
+/* Example Ends */
 .projects {
   padding: 10%;
 }
