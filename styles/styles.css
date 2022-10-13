@@ -237,7 +237,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #000;
+  background-color: #0F0F0F;
 }
 
 .wrapper {
@@ -404,6 +404,7 @@ a {
   margin: 10% auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  list-style: none;
   /* color: $orange; */
   /* display: inline-block; */
   /* display: flex;
