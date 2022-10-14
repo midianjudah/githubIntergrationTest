@@ -501,18 +501,21 @@ header {
 
 /* ABOUT PICTURE & PROJECT SCREENSHOTS */
 .about,
-.projectSection {
+.projectSection,
+.project {
   width: 100%;
 }
 .about img,
-.projectSection img {
+.projectSection img,
+.project img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
   padding: 5%;
 }
 .about .midPic,
-.projectSection .midPic {
+.projectSection .midPic,
+.project .midPic {
   background-color: #71797E;
 }
 
