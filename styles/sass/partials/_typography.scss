@@ -1,3 +1,5 @@
+/* GENERAL */
+
 html {
     margin: 0;
     padding: 0;
@@ -34,7 +36,8 @@ h4 {
     font-size: 2rem;
 }
 
-/* ABOUT SECTION */
+
+/* ABOUT */
 .about {
    text-align: left;
 
@@ -55,11 +58,17 @@ h4 {
    }
 }
 
+
+/* SOCIALS */
 .socials {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+
+/* SKILLS */
+
 
 /* PROJECTS */
 .projectSection {

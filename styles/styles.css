@@ -229,6 +229,7 @@ html {
   overflow: hidden;
 }
 
+/* GENERAL */
 html {
   margin: 0;
   padding: 0;
@@ -265,7 +266,7 @@ h4 {
   font-size: 2rem;
 }
 
-/* ABOUT SECTION */
+/* ABOUT */
 .about {
   text-align: left;
 }
@@ -283,6 +284,7 @@ h4 {
   color: #F06000;
 }
 
+/* SOCIALS */
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,6 +297,7 @@ h4 {
           flex-direction: row;
 }
 
+/* SKILLS */
 /* PROJECTS */
 .projectSection {
   display: -webkit-box;
@@ -399,6 +402,7 @@ a {
   transition: 0.4s ease-in;
 }
 
+/* SOCIALS */
 .socials {
   font-size: 2rem;
   margin: 10% auto;
@@ -421,6 +425,7 @@ a {
   color: #FFA818;
 }
 
+/* SKILLS */
 .skills {
   background-color: #71797E;
   padding-top: 1%;
@@ -440,7 +445,7 @@ a {
 }
 .skillContainer p {
   text-transform: uppercase;
-  color: #000;
+  color: #ECE4DE;
   font-size: 0.9rem;
   font-weight: 100;
   text-align: center;
@@ -452,6 +457,7 @@ a {
   padding: 10px;
 }
 
+/* PROJECTS */
 .projectIcons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,6 +480,26 @@ a {
   display: inline-block;
 }
 
+/* HEADER IMAGE */
+header {
+  background-image: url(../assets/spaceLightsHeader.JPEG);
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+  background-image: -webkit-linear-gradient(top rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+/* ABOUT SECTION */
+.about {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3%;
+  /* padding-bottom: 2%; */
+  border-radius: 10%;
+}
+
+/* ABOUT PICTURE & PROJECT SCREENSHOTS */
 .about,
 .projectSection {
   width: 100%;
@@ -491,38 +517,19 @@ a {
   background-color: #71797E;
 }
 
-.about {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 3%;
-  /* padding-bottom: 2%; */
-  border-radius: 10%;
-}
-
+/* 
 .project01,
 .project02,
 .project03,
 .project04 {
-  width: 41%;
-}
-.project01 img,
-.project02 img,
-.project03 img,
-.project04 img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 100%;
-}
+    width: 41%;
 
-header {
-  background-image: url(../assets/spaceLightsHeader.JPEG);
-  position: relative;
-  background-size: cover;
-  min-height: 100vh;
-  background-image: -webkit-linear-gradient(top rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.5) 100%);
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
 }
-
+ */
 /* The BACKGROUND */
 .contact {
   background-color: #71797E;

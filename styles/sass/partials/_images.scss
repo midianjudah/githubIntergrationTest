@@ -1,4 +1,27 @@
+/* HEADER IMAGE */
+header {
+    background-image: url(../assets/spaceLightsHeader.JPEG);
+    position: relative;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: -webkit-linear-gradient(top
+    rgba(0,0,0,0.50) 0%,
+    rgba(0,0,0,0) 20%,
+    rgba(0,0,0,0) 80%,
+    rgba(0,0,0,0.50) 100%,);
+}
 
+
+/* ABOUT SECTION */
+.about {
+    align-items: center;
+    padding-top: 3%;
+    /* padding-bottom: 2%; */
+    border-radius: 10%;
+}
+
+
+/* ABOUT PICTURE & PROJECT SCREENSHOTS */
 .about,
 .projectSection {
     width: 100%;
@@ -15,15 +38,7 @@
     }
 }
 
-
-
-.about {
-    align-items: center;
-    padding-top: 3%;
-    /* padding-bottom: 2%; */
-    border-radius: 10%;
-}
-
+/* 
 .project01,
 .project02,
 .project03,
@@ -35,16 +50,4 @@
         width: 100%;
     }
 }
-
-
-header {
-    background-image: url(../assets/spaceLightsHeader.JPEG);
-    position: relative;
-    background-size: cover;
-    min-height: 100vh;
-    background-image: -webkit-linear-gradient(top
-    rgba(0,0,0,0.50) 0%,
-    rgba(0,0,0,0) 20%,
-    rgba(0,0,0,0) 80%,
-    rgba(0,0,0,0.50) 100%,);
-}
+ */

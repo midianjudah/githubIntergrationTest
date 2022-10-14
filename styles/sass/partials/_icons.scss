@@ -1,10 +1,12 @@
+
+/* SOCIALS */
 .socials {
     font-size: 2rem;
     margin: 10% auto;
     justify-content: space-around;
     list-style: none;
 
-    
+
     /* color: $orange; */
     /* display: inline-block; */
     /* display: flex;
@@ -22,6 +24,8 @@
     color: $yellow;
 }
 
+
+/* SKILLS */
 .skills {
     background-color: $grey;
     padding-top: 1%;
@@ -36,7 +40,7 @@
 
     p {
         text-transform: uppercase;
-        color: #000;
+        color: $white;
         font-size: 0.9rem;
         font-weight: 100;
         text-align: center;
@@ -49,6 +53,8 @@
     }
 }
 
+
+/* PROJECTS */
 .projectIcons {
     display: flex;
     flex-wrap: wrap;
