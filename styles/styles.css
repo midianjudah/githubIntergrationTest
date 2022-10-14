@@ -658,13 +658,12 @@ header {
 }
 
 /* Example Ends - Project Section */
-.projectIcons li,
-.projectIcons .skillIcon {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
+/* .projectIcons {
+    li,
+    .skillIcon {
+        justify-content: space-between;
+    }
+} */
 /* Skills Section */
 .skillIcons {
   font-size: 0.5em;
@@ -710,12 +709,20 @@ header {
 
 .projectIconsWrapper {
   display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .descriptionIconsButts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .project02 {
@@ -730,21 +737,19 @@ header {
   top: 40px;
 }
 
-/* 
-.project01,
-.project01description,
-.project01buttons,
-.project02,
-.project02description,
-.project02buttons {
-    width: 40%;
+.project01Buttons,
+.project02Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 
-    img {
-        object-fit: contain;
-        width: 100%;
-    }
-} 
-*/
 /* 1300px */
 @media (max-width: 1300px) {
   .formBox {

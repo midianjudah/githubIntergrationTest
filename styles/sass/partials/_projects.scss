@@ -18,12 +18,12 @@
 }
 /* Example Ends - Project Section */
 
-.projectIcons {
+/* .projectIcons {
     li,
     .skillIcon {
         justify-content: space-between;
     }
-}
+} */
 
 
 /* Skills Section */
@@ -70,9 +70,13 @@
 }
 .projectIconsWrapper {
     display: inline-block;
+    justify-content: center;
+    align-self: center;
 }
+
 .descriptionIconsButts {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .project02 {
@@ -89,18 +93,9 @@
     }
 }
 
-/* 
-.project01,
-.project01description,
-.project01buttons,
-.project02,
-.project02description,
-.project02buttons {
-    width: 40%;
-
-    img {
-        object-fit: contain;
-        width: 100%;
-    }
-} 
-*/
+.project01Buttons,
+.project02Buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
