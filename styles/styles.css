@@ -509,7 +509,6 @@ header {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
-  /* border-radius: 10%; */
   padding: 5%;
 }
 .about .midPic,
@@ -517,19 +516,6 @@ header {
   background-color: #71797E;
 }
 
-/* 
-.project01,
-.project02,
-.project03,
-.project04 {
-    width: 41%;
-
-    img {
-        object-fit: contain;
-        width: 100%;
-    }
-}
- */
 /* The BACKGROUND */
 .contact {
   background-color: #71797E;
