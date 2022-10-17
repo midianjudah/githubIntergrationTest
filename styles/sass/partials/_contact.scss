@@ -1,4 +1,4 @@
-/* The BACKGROUND */
+/* THE BACKGROUND */
 .contact {
     background-color: $grey;
     padding-top: 2%;
@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
     align-self: end;
 }
@@ -101,26 +101,21 @@
 }
 
 /* THE SOCIALS */
-
 .socials {
-    font-size: 2rem;
-    margin: 10% auto;
-    justify-content: space-around;
-    justify-content: center;
+    font-size: 1rem;
     list-style: none;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+    /* justify-content: flex-end; */
+    /* width: calc(100% / 3 - 24px); */
+    /* justify-content: space-evenly; */
+    /* width: -30%; */
+    /* box-sizing: border-box; */
+    /* align-self: flex-end; */
     /* display: block; */
-
-
     /* color: $orange; */
     /* display: inline-block; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* margin: 1%; */
-    /* width: calc(100% / 3 - 24px); */
-
-}
-
-.socialIcons {
-    display: flex;
-    justify-content: space-around;
 }
