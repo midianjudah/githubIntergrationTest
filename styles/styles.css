@@ -266,6 +266,10 @@ h4 {
   font-size: 2rem;
 }
 
+h3 {
+  text-align: center;
+}
+
 /* ABOUT */
 .about {
   text-align: left;
@@ -322,10 +326,6 @@ h4 {
   color: #F06000;
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
-}
-
-h3 {
-  text-align: center;
 }
 
 .projectDescription {
@@ -437,7 +437,7 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 8% auto;
+  margin-top: 8% auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -516,7 +516,7 @@ header {
 .about .midPic,
 .projectSection .midPic,
 .project .midPic {
-  background-color: #71797E;
+  background-color: #0F0F0F;
 }
 
 /* The BACKGROUND */
@@ -535,7 +535,7 @@ header {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 70%;
+  width: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -ms-flex-item-align: end;
@@ -554,8 +554,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   outline: none;
-  border-bottom: 1px solid red;
-  border-radius: 15%;
+  border-bottom: 1px solid #FFA818;
   letter-spacing: 3px;
   margin: 0 10px 20px 10px;
   width: 50%;
@@ -580,6 +579,7 @@ header {
 }
 .nameEmail label {
   font-size: 1.4rem;
+  color: #ECE4DE;
 }
 
 .messageBox {
@@ -631,13 +631,40 @@ header {
 }
 .send:hover {
   background-color: #ECE4DE;
-  color: red;
+  color: #F06000;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
 .newLine {
   display: block;
+}
+
+/* THE SOCIALS */
+.socials {
+  font-size: 2rem;
+  margin: 10% auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  /* display: block; */
+  /* color: $orange; */
+  /* display: inline-block; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin: 1%; */
+  /* width: calc(100% / 3 - 24px); */
+}
+
+.socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /* Example Starts - Project Section */
@@ -671,7 +698,9 @@ header {
 
 /* Skills Section */
 .projects {
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 6%;
 }
 .projects p {
   margin: 10%;

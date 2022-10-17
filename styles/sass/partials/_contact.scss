@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 70%;
+    width: 50%;
     box-sizing: border-box;
     align-self: end;
 }
@@ -21,8 +21,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     outline: none;
-    border-bottom: 1px solid red;
-    border-radius: 15%;
+    border-bottom: 1px solid $yellow;
     letter-spacing: 3px;
     margin: 0 10px 20px 10px;
     width: 50%;
@@ -46,6 +45,7 @@
     
     label {
         font-size: 1.4rem;
+        color: $white;
     }
 }
 
@@ -91,11 +91,36 @@
 
     &:hover {
         background-color: $white;
-        color: red;
+        color: $orange;
         transition: 0.7s;
     }
 }
 
 .newLine {
     display: block;
+}
+
+/* THE SOCIALS */
+
+.socials {
+    font-size: 2rem;
+    margin: 10% auto;
+    justify-content: space-around;
+    justify-content: center;
+    list-style: none;
+    /* display: block; */
+
+
+    /* color: $orange; */
+    /* display: inline-block; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* margin: 1%; */
+    /* width: calc(100% / 3 - 24px); */
+
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-around;
 }
