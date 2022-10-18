@@ -109,15 +109,6 @@
     flex-wrap: wrap;
     width: 70%;
     justify-content: space-around;
-    /* justify-content: flex-end; */
-    /* width: calc(100% / 3 - 24px); */
-    /* justify-content: space-evenly; */
-    /* width: -30%; */
-    /* box-sizing: border-box; */
-    /* align-self: flex-end; */
-    /* display: block; */
-    /* color: $orange; */
-    /* display: inline-block; */
 }
 
 
@@ -127,9 +118,8 @@
 .fa-square-twitter {
 
     &:hover {
-        /* background-color: $white; */
         color: $blue;
-        transition: 0.7s;
+        transition: 0.4s ease-in;
     }
 
 }

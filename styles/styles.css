@@ -403,6 +403,18 @@ a {
   transition: 0.4s ease-in;
 }
 
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 6px;
+  font-size: 40px;
+  color: #ECE4DE;
+}
+
 /* SOCIALS */
 .fa-brands,
 .fa-solid,
@@ -640,25 +652,15 @@ header {
   width: 70%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  /* justify-content: flex-end; */
-  /* width: calc(100% / 3 - 24px); */
-  /* justify-content: space-evenly; */
-  /* width: -30%; */
-  /* box-sizing: border-box; */
-  /* align-self: flex-end; */
-  /* display: block; */
-  /* color: $orange; */
-  /* display: inline-block; */
 }
 
 .fa-square-github:hover,
 .fa-linkedin:hover,
 .fa-medium:hover,
 .fa-square-twitter:hover {
-  /* background-color: $white; */
   color: #09133e;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
 }
 
 /* Example Starts - Project Section */
