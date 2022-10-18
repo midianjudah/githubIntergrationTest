@@ -344,7 +344,7 @@ footer {
   background-color: #0F0F0F;
   text-align: center;
   margin: 0;
-  padding: 1.25%;
+  padding: 0.7%;
   color: #ECE4DE;
   font-size: 1.5rem;
 }
@@ -666,8 +666,8 @@ header {
 /* Example Starts - Project Section */
 .button {
   background-color: #F06000;
-  border-radius: 11%;
-  padding: 1.3%;
+  border-radius: 5px;
+  padding: 6px 12px;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
