@@ -612,7 +612,7 @@ header {
   letter-spacing: 1.5px;
   background-color: #F06000;
   color: #ECE4DE;
-  margin: 0;
+  margin-top: 3%;
   padding: 6px 28px;
   border: none;
 }
@@ -649,6 +649,16 @@ header {
   /* display: block; */
   /* color: $orange; */
   /* display: inline-block; */
+}
+
+.fa-square-github:hover,
+.fa-linkedin:hover,
+.fa-medium:hover,
+.fa-square-twitter:hover {
+  /* background-color: $white; */
+  color: #09133e;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 /* Example Starts - Project Section */

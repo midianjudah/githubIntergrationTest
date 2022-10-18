@@ -85,7 +85,7 @@
     letter-spacing: 1.5px;
     background-color: $orange;
     color: $white;
-    margin: 0;
+    margin-top: 3%;
     padding: 6px 28px;
     border: none;
 
@@ -118,4 +118,18 @@
     /* display: block; */
     /* color: $orange; */
     /* display: inline-block; */
+}
+
+
+.fa-square-github,
+.fa-linkedin,
+.fa-medium,
+.fa-square-twitter {
+
+    &:hover {
+        /* background-color: $white; */
+        color: $blue;
+        transition: 0.7s;
+    }
+
 }
