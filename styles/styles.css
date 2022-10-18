@@ -341,10 +341,10 @@ footer {
 }
 
 footer {
-  background-color: #71797E;
+  background-color: #0F0F0F;
   text-align: center;
   margin: 0;
-  padding: 0.1%;
+  padding: 1.25%;
   color: #ECE4DE;
   font-size: 1.5rem;
 }
