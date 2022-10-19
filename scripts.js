@@ -1,3 +1,18 @@
+// NAVIGATION
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+
+//MEDIA QUERY HAMBURGER
+
+
+// CONTACT FORM
 function ready() {
   const cf = document.querySelector("#contactForm");
   cf.addEventListener("submit", buildEmailLink, false);

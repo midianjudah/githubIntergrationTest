@@ -10,7 +10,7 @@ a {
 	color: $white;
 }
 
-.navbar {
+.nav-bar {
 	border-bottom: 1px solid $white;
 	display: flex;
 	justify-content: space-between;
@@ -34,23 +34,23 @@ a {
 }
 
 /* DIE MENU */
-.navmenu {
+.nav-menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.navitem {
+.nav-item {
 	margin-left: 5rem;
 }
 
-.navlink {
+.nav-link {
 	font-size: 1.6rem;
 	font-weight: 400;
 }
 
 /* SCHWBEN WIRKUNG */
-.navlink:hover {
+.nav-link:hover {
 	color: $orange;
 }
 
@@ -61,6 +61,10 @@ a {
 	font-weight: 500;
 	color: $white;
 }
+
+
+
+
 
 /* ALT NAV */
 /* nav ul {

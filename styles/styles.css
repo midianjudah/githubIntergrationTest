@@ -361,7 +361,7 @@ a {
   color: #ECE4DE;
 }
 
-.navbar {
+.nav-bar {
   border-bottom: 1px solid #ECE4DE;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,7 +391,7 @@ a {
 }
 
 /* DIE MENU */
-.navmenu {
+.nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,17 +403,17 @@ a {
           align-items: center;
 }
 
-.navitem {
+.nav-item {
   margin-left: 5rem;
 }
 
-.navlink {
+.nav-link {
   font-size: 1.6rem;
   font-weight: 400;
 }
 
 /* SCHWBEN WIRKUNG */
-.navlink:hover {
+.nav-link:hover {
   color: #F06000;
 }
 
@@ -906,7 +906,7 @@ header {
 }
 /* NAVIGATION RESPONSIVENESS */
 @media only screen and (max-width: 768px) {
-  .navmenu {
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 5rem;
@@ -923,14 +923,25 @@ header {
     -webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
             box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-  .navmenu.active {
+  .nav-menu.active {
     left: 0;
   }
-  .navitem {
+  .nav-item {
     margin: 2.5rem 0;
   }
   .hamburger {
     display: block;
     cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+            transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+            transform: translateY(-8px) rotate(-45deg);
   }
 }
