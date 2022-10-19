@@ -1,4 +1,4 @@
-// NAVIGATION
+// NAVIGATION //
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -9,10 +9,19 @@ function mobileMenu() {
   navMenu.classList.toggle("active");
 }
 
-//MEDIA QUERY HAMBURGER
+// ...TO DISAPEAR COMPLETELY //
+const navLink = document.querySelectorAll(".nav-link");
 
+navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-// CONTACT FORM
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
+
+/* ------------------------------------------ */
+
+// CONTACT FORM //
 function ready() {
   const cf = document.querySelector("#contactForm");
   cf.addEventListener("submit", buildEmailLink, false);

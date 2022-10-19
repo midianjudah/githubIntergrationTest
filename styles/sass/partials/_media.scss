@@ -1,15 +1,63 @@
 /* 1300px */
 @media (max-width: 1300px) {
 
+/* CONTACT SECTION */
     .formBox {
         width: 100%;
     }
 }
 
+
+/* 1020px */
+@media only screen and (max-width: 1020px) {
+
+/* NAVIGATION */
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: $white;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+/* BURGER ACTIVATION */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+
 /* 1000px */
 @media (max-width: 1000px) {
 
-    
+/* CONTACT SECTION */
     .messageBox,
     .send {
         width: 85%;
@@ -22,10 +70,11 @@
 
 }
 
+
 /*  900px */
 @media (max-width: 900px) {
 
-
+/* CONTACT SECTION */
     .messageBox {
         top: 20%;
         left: 50%;
@@ -34,15 +83,11 @@
 
 }
 
+
 /* 500px */
-
-
-/* NAVIGATION */
 @media (max-width: 500px) {
-    ul {
-        flex-direction: column;
-    }
-
+    
+/* CONTACT SECTION */
     .nameEmail {
         flex-direction: column;
         width: 100%;
@@ -68,50 +113,6 @@
     .nameBox,
     .emailBox {
         width: 100%;
-    }
-
-}
-
-
-/* NAVIGATION RESPONSIVENESS */
-
-@media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: $white;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-      }
-    
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
     }
 
 }
