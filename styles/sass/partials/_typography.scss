@@ -18,11 +18,11 @@ body {
 }
 
 h1 {
-    font-family: $alphaFont;
-    font-size: 4.2rem;
-    font-weight: 100;
+    font-family: $charlieFont;
+    font-size: 6.2rem;
+    font-weight: 700;
     color: $orange;
-    text-align: center;
+    text-align: end;
     letter-spacing: 2px;
     padding-top: 100px;
     margin-bottom: 0;
@@ -30,9 +30,10 @@ h1 {
 
 h2 {
     color: $orange;
-    font-family: $alphaFont;
-    font-size: 2.2rem;
+    font-family: $charlieFont;
+    font-size: 3.2rem;
     font-weight: 300;
+    margin-top: 0%;
 }
 
 

@@ -248,11 +248,11 @@ body {
 }
 
 h1 {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 4.2rem;
-  font-weight: 100;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  font-size: 6.2rem;
+  font-weight: 700;
   color: #F06000;
-  text-align: center;
+  text-align: end;
   letter-spacing: 2px;
   padding-top: 100px;
   margin-bottom: 0;
@@ -260,9 +260,10 @@ h1 {
 
 h2 {
   color: #F06000;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 2.2rem;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  font-size: 3.2rem;
   font-weight: 300;
+  margin-top: 0%;
 }
 
 h3,
@@ -358,7 +359,7 @@ footer {
 /* NEU NAV */
 li {
   font-size: 66.6%;
-  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Noto Sans Ethiopic", sans-serif;
   list-style: none;
   text-transform: uppercase;
 }
