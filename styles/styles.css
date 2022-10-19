@@ -248,17 +248,24 @@ body {
 }
 
 h1 {
-  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Noto Sans Ethiopic", sans-serif;
   font-size: 6.2rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #F06000;
-  text-align: center;
-  letter-spacing: 2.4px;
+  text-align: end;
+  letter-spacing: 2px;
   padding-top: 100px;
   margin-bottom: 0;
 }
 
-h2,
+h2 {
+  color: #F06000;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
 h3,
 h4 {
   color: #F06000;
