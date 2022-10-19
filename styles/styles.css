@@ -349,72 +349,65 @@ footer {
   font-size: 1.5rem;
 }
 
-nav ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0;
-  padding: 20px 0;
+/* NEW NAV */
+/* OLD NAV */
+/* nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 20px 0;
 }
 
 nav ul li {
-  margin: 1px 10px;
+	margin: 1px 10px;
 }
 
 nav ul li a {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 21px;
-  color: #ECE4DE;
-  padding: 10px 15px;
-  display: inline-block;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
+  font-family: $alphaFont;
+	font-size: 21px;
+	color: $white;
+	padding: 10px 15px;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #F06000;
-  -webkit-transition: 0.4s ease-in;
-  transition: 0.4s ease-in;
+    color: $orange;
+	transition: 0.4s ease-in;
 }
 
 a {
-  text-decoration: none;
-  color: #ECE4DE;
+    text-decoration: none;
+    color: $white;
 }
 
 .projectButtons {
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  color: #71797E;
-}
-.projectButtons a:hover,
-.projectButtons a:focus {
-  color: #F06000;
-  -webkit-transition: 0.4s ease-in;
-  transition: 0.4s ease-in;
+    text-decoration: none;
+    font-family: $betaFont;
+    font-size: 1.5rem;
+    color: $grey;
+
+
+    a:hover,
+    a:focus {
+    color: $orange;
+	transition: 0.4s ease-in;
+    }
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 6px;
-  font-size: 40px;
-  color: #ECE4DE;
-}
-
+	display: flex;
+	justify-content: space-between;
+	margin: 6px;
+	font-size: 40px;
+	color: $white;
+} */
 /* SOCIALS */
 .fa-brands,
 .fa-solid,
