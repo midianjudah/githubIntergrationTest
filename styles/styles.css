@@ -414,14 +414,17 @@ a {
 
 /* SCHWBEN WIRKUNG */
 .nav-link:hover {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
   color: #F06000;
 }
 
 /* DIE LOGO */
 .logo {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #ECE4DE;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #71797E;
+  font-family: "Noto Sans Ethiopic", sans-serif;
 }
 
 /* ALT NAV */
