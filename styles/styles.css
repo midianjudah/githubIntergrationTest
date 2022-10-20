@@ -418,9 +418,8 @@ a {
 .nav-link {
   font-size: 1.6em;
   font-weight: 400;
+  /* GLUHEN WIRKUNG */
 }
-
-/* SCHWBEN WIRKUNG */
 .nav-link:hover {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
@@ -433,6 +432,12 @@ a {
   font-weight: 700;
   color: #71797E;
   font-family: "Noto Sans Ethiopic", sans-serif;
+  /* GLUHEN WIRKUNG */
+}
+.logo:hover {
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  color: #F06000;
 }
 
 /* ALT NAV */
@@ -547,14 +552,15 @@ a {
           flex-direction: row;
   margin: 6% auto;
   list-style: none;
-  /* justify-content: space-between; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   /* width: calc(100% / 3 - 24px); */
 }
 .projectIcons .fa-brands {
-  -ms-flex-preferred-size: 20%;
-      flex-basis: 20%;
-  margin: 1%;
-  display: inline-block;
+  /* flex-basis: 20%; */
+  /* margin: 1%; */
+  /* display: inline-block; */
 }
 
 /* HEADER IMAGE */
@@ -772,8 +778,8 @@ header {
 
 /* Skills Section */
 .projects {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 17%;
+  padding-right: 17%;
   padding-bottom: 6%;
 }
 .projects p {

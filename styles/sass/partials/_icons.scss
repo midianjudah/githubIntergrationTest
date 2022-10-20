@@ -45,12 +45,12 @@
     flex-direction: row;
     margin: 6% auto;
     list-style: none;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 
     .fa-brands {
-        flex-basis: 20%;
-        margin: 1%;
-        display: inline-block;
+        /* flex-basis: 20%; */
+        /* margin: 1%; */
+        /* display: inline-block; */
     }
 
     /* width: calc(100% / 3 - 24px); */
