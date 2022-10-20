@@ -27,9 +27,6 @@
     width: 50%;
     justify-content: space-between;
     
-
-    
-
     input {
         padding: 0 5px;
         height: 40px;
@@ -53,7 +50,6 @@
     border: 1px solid $yellow;
     letter-spacing: 3px;
     color: $white;
-
     
         textarea{
             
@@ -69,7 +65,6 @@
                 color: $white;
             }
         }
-
 }
 
 .postComment {
@@ -121,5 +116,4 @@
         color: $blue;
         transition: 0.4s ease-in;
     }
-
 }

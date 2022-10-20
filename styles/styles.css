@@ -283,8 +283,9 @@ h3 {
   text-align: left;
 }
 .about p {
-  padding: 5%;
-  margin-top: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 3%;
   letter-spacing: 2px;
   line-height: 200%;
 }
@@ -294,6 +295,9 @@ h3 {
 }
 .about a {
   color: #F06000;
+}
+.about a:hover {
+  color: #71797E;
 }
 
 /* SOCIALS */
@@ -569,7 +573,11 @@ header {
   position: relative;
   background-size: cover;
   min-height: 100vh;
-  background-image: -webkit-linear-gradient(top rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.5) 100%);
+  /* background-image: -webkit-linear-gradient(top
+  rgba(0,0,0,0.50) 0%,
+  rgba(0,0,0,0) 20%,
+  rgba(0,0,0,0) 80%,
+  rgba(0,0,0,0.50) 100%,); */
 }
 
 /* ABOUT SECTION */
@@ -600,6 +608,8 @@ header {
 .projectSection .midPic,
 .project .midPic {
   background-color: #0F0F0F;
+  padding: 10%;
+  padding-top: 0%;
 }
 
 /* THE BACKGROUND */
@@ -756,7 +766,9 @@ header {
   transition: background-color 0.4s;
 }
 .button:hover {
-  background-color: #09133e;
+  /* background-color: $blue; */
+  background-color: #71797E;
+  /* color: $orange; */
 }
 .button i {
   font-size: 1em;
