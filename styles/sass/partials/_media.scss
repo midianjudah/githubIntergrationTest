@@ -11,6 +11,12 @@
 /* 1020px */
 @media only screen and (max-width: 1020px) {
 
+    /* HTML ELEMENT */
+
+    html {
+        font-size: 100%;
+    }
+
 /* NAVIGATION */
     .nav-menu {
         position: fixed;
