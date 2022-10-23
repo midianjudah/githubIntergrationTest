@@ -49,9 +49,11 @@ function buildEmailLink(event) {
   const name = document.querySelector("#name").value;
   const email = document.querySelector("#email").value;
   const message = document.querySelector("#message").value;
+  const subject = "Let's talk about next steps!";
   const newline = "%0D%0A";
 
   emailLink+="?body="+encodeURI(message)+newline+newline+"From: "+encodeURI(name)+" <"+encodeURI(email)+">";
+  emailLink += "&subject="+encodeURI(subject)
 
   window.open( emailLink );
 
