@@ -951,6 +951,13 @@ header {
   .projectSection {
     text-align: center;
   }
+  .projectSection .button i {
+    margin-right: 0;
+  }
+  .projectSection .button span {
+    display: block;
+    text-align: center;
+  }
   .project01Description {
     width: 100%;
     margin-top: 3em;
