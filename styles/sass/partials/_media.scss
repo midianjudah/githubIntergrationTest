@@ -57,6 +57,22 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    /* PROJECTS */
+    .project01Description {
+        width: 100%;
+        margin-top: 3em;
+        text-align: center;
+
+        p {
+            padding: 0;
+            
+        }
+    }
+
+    .descriptionIconsButts {
+        flex-direction: column-reverse;
+    }
+
 }
 
 

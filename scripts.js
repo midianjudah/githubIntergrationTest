@@ -23,8 +23,22 @@ function closeMenu() {
 
 // CONTACT FORM //
 function ready() {
+  // Stuff to do when the page loads
+
+  // Handle contact form submission
   const cf = document.querySelector("#contactForm");
   cf.addEventListener("submit", buildEmailLink, false);
+
+  // On Scroll Event
+  window.addEventListener(
+    'scroll',
+    function( event ){
+      // Navbar scrolling
+      const navbar = document.querySelector('.nav-bar');
+      navbar.classList.toggle( 'at-top', window.scrollY == 0 );
+    }
+  )
+
 }
 
 function buildEmailLink(event) {
