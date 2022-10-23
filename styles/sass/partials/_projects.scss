@@ -46,13 +46,16 @@
     }
 }
 
-.border01,
-.border02,
-.border03,
-.border04 {
+.projectWrapper {
     border: 3px solid $orange;
     margin-bottom: 5%;
     padding: 0.5%;
+    transition: transform 1s;
+    transform: scale(0) rotateX(180deg);
+
+    &.show {
+        transform: scale(1) rotateX(0deg);
+    }
 }
 
 .project01Description {
@@ -66,7 +69,7 @@
         margin-top: 0;
     }
 
-    .border01 {
+    .projectWrapper {
         p {
             text-align: center;
         }

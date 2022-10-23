@@ -402,9 +402,13 @@ a {
   width: 100%;
   -webkit-transition: padding 0.5s;
   transition: padding 0.5s;
+  z-index: 99999;
 }
 .nav-bar.at-top {
   padding: 1rem 1.5rem;
+}
+.nav-bar .socials {
+  display: none;
 }
 
 /* DIE BURGER */
@@ -821,13 +825,20 @@ header {
   margin: 10%;
 }
 
-.border01,
-.border02,
-.border03,
-.border04 {
+.projectWrapper {
   border: 3px solid #F06000;
   margin-bottom: 5%;
   padding: 0.5%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0) rotateX(180deg);
+          transform: scale(0) rotateX(180deg);
+}
+.projectWrapper.show {
+  -webkit-transform: scale(1) rotateX(0deg);
+          transform: scale(1) rotateX(0deg);
 }
 
 .project01Description {
@@ -847,7 +858,7 @@ header {
 .project01Description p {
   margin-top: 0;
 }
-.project01Description .border01 p {
+.project01Description .projectWrapper p {
   text-align: center;
 }
 
@@ -925,8 +936,18 @@ header {
     -webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
             box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
+  .nav-menu .socials {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+  .nav-menu .socials li {
+    display: inline-block;
+    margin-right: 1em;
+  }
   .nav-menu.active {
     left: 0;
+    padding: 0;
   }
   .nav-item {
     margin: 2.5rem 0;
@@ -1039,4 +1060,8 @@ header {
   content: "";
   clear: both;
   height: 0;
+}
+
+.red {
+  background: red;
 }

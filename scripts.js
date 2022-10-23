@@ -29,13 +29,23 @@ function ready() {
   const cf = document.querySelector("#contactForm");
   cf.addEventListener("submit", buildEmailLink, false);
 
+  const navbar = document.querySelector('.nav-bar');
+  const projects = [];
+
   // On Scroll Event
   window.addEventListener(
     'scroll',
     function( event ){
       // Navbar scrolling
-      const navbar = document.querySelector('.nav-bar');
       navbar.classList.toggle( 'at-top', window.scrollY == 0 );
+      // Project revealing
+      const projectsScrollBuffer = window.innerHeight / 2;
+      document.querySelectorAll('.projectWrapper').forEach(
+        function( el, i )
+        {
+          el.classList.toggle( 'show', window.scrollY > ( el.offsetTop - projectsScrollBuffer ) )
+        }
+      );
     }
   )
 

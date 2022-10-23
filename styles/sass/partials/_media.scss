@@ -29,10 +29,22 @@
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        
+        .socials {
+            display: block;
+            padding: 0;
+            width: 100%;
+
+            li {
+                display: inline-block;
+                margin-right: 1em;
+            }
+        }
     }
 
     .nav-menu.active {
         left: 0;
+        padding: 0;
     }
 
     .nav-item {

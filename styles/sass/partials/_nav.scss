@@ -23,9 +23,14 @@ a {
 	left: 0;
 	width: 100%;
 	transition: padding 0.5s;
+	z-index: 99999;
 	
 	&.at-top {
 		padding: 1rem 1.5rem;
+	}
+
+	.socials {
+		display: none;
 	}
 }
 
