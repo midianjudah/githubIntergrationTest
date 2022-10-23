@@ -366,6 +366,10 @@ footer {
   text-transform: lowercase;
 }
 
+.center {
+  text-align: center;
+}
+
 /* NEU NAV */
 li {
   font-size: 66.6%;
@@ -944,6 +948,9 @@ header {
             transform: translateY(-8px) rotate(-45deg);
   }
   /* PROJECTS */
+  .projectSection {
+    text-align: center;
+  }
   .project01Description {
     width: 100%;
     margin-top: 3em;
