@@ -948,6 +948,9 @@ header {
             transform: translateY(-8px) rotate(-45deg);
   }
   /* PROJECTS */
+  .projects {
+    padding: 0 7% 6%;
+  }
   .projectSection {
     text-align: center;
   }
