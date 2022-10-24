@@ -48,7 +48,6 @@ function ready() {
       );
     }
   )
-
 }
 
 function buildEmailLink(event) {
@@ -69,4 +68,3 @@ function buildEmailLink(event) {
 
   return false;
 }
-

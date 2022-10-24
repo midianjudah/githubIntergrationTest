@@ -313,7 +313,6 @@ h3 {
           flex-direction: row;
 }
 
-/* SKILLS */
 /* PROJECTS */
 .projectSection {
   display: -webkit-box;
@@ -468,64 +467,6 @@ a {
   color: #F06000;
 }
 
-/* ALT NAV */
-/* nav ul {
-	list-style: none;
-	display: flex;
-	justify-content: right;
-	flex-wrap: wrap;
-	margin: 0;
-	padding: 20px 0;
-}
-
-nav ul li {
-	margin: 1px 10px;
-}
-
-nav ul li a {
-  font-family: $alphaFont;
-	font-size: 21px;
-	color: $white;
-	padding: 10px 15px;
-	display: inline-block;
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-
-}
-
-nav ul li a:hover,
-nav ul li a:focus {
-    color: $orange;
-	transition: 0.4s ease-in;
-}
-
-a {
-    text-decoration: none;
-    color: $white;
-}
-
-.projectButtons {
-    text-decoration: none;
-    font-family: $betaFont;
-    font-size: 1.5rem;
-    color: $grey;
-
-
-    a:hover,
-    a:focus {
-    color: $orange;
-	transition: 0.4s ease-in;
-    }
-}
-
-.logo {
-	display: flex;
-	justify-content: space-between;
-	margin: 6px;
-	font-size: 40px;
-	color: $white;
-} */
 /* SOCIALS */
 .fa-brands,
 .fa-solid,
@@ -584,13 +525,6 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0;
-  /* .fa-brands {
-      flex-basis: 20%;
-      margin: 1%;
-      display: inline-block;
-  }
-
-  width: calc(100% / 3 - 24px); */
 }
 
 /* HEADER IMAGE */
@@ -599,11 +533,6 @@ header {
   position: relative;
   background-size: cover;
   min-height: 100vh;
-  /* background-image: -webkit-linear-gradient(top
-  rgba(0,0,0,0.50) 0%,
-  rgba(0,0,0,0) 20%,
-  rgba(0,0,0,0) 80%,
-  rgba(0,0,0,0.50) 100%,); */
 }
 
 /* ABOUT SECTION */
@@ -612,7 +541,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 3%;
-  /* padding-bottom: 2%; */
   border-radius: 10%;
 }
 
@@ -753,6 +681,7 @@ header {
   color: #F06000;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  border-radius: 5px;
 }
 
 .newLine {
@@ -793,9 +722,7 @@ header {
   margin: 0 1em;
 }
 .button:hover {
-  /* background-color: $blue; */
   background-color: #71797E;
-  /* color: $orange; */
 }
 .button i {
   font-size: 1em;
@@ -803,13 +730,6 @@ header {
   margin-right: 0.5em;
 }
 
-/* Example Ends - Project Section */
-/* .projectIcons {
-    li,
-    .skillIcon {
-        justify-content: space-between;
-    }
-} */
 /* Skills Section */
 .skillIcons {
   font-size: 0.5em;
